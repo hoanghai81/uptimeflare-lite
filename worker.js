@@ -5,7 +5,7 @@ export default {
     if (url.pathname === '/api') {
       const sites = [
         { name: "Blog", url: "https://blog.rawtv.top" },
-        { name: "Image CDN", url: "https://anh.rawtv.top" }
+        { name: "web", url: "https://www.rawtv.top/?m=1" }
       ]
 
       const results = await Promise.all(
